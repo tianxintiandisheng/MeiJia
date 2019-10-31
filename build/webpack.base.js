@@ -82,6 +82,13 @@ module.exports = {
             chunkFilename: 'css/[id].[hash].css'
         }),
     ],// 插件
+    devServer: {
+        proxy: {
+            '/api': 'http://dev.admin.carrots.ptteng.com',
+            changeOrigin: true
+        }
+    }
+
 
 };
 

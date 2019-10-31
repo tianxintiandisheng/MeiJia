@@ -23,29 +23,11 @@
 </script>
 
 <style >
-    #app {
-        font-family: 'Avenir', Helvetica, Arial, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        text-align: center;
-        color: #2c3e50;
-        margin-top: 60px;
-        transform: rotate(0deg);
-        border-radius: 25px;
-        background: #8AC007;
-    }
+    /*.body{*/
+        /*background: #f5f5f5;*/
+    /*}*/
+    #app{
 
-
-    ::placeholder {
-        color: red;
-    }
-    .image {
-        background-image: url(assets/584_201809039473584.png);
-    }
-    @media (min-resolution: 2dppx) {
-        .image {
-            background-image: url(assets/584_201809039473584.png);
-        }
     }
 </style>
 
